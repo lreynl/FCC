@@ -1,0 +1,104 @@
+/*change in JS also*/
+/*uses SASS*/
+$tdHeight: 50px
+
+@media(max-width: 520px) 
+  td
+    font-size: 16px !important
+  
+  th
+    font-size: 12px !important
+  
+  #userName
+    width: 130px !important
+  
+  #title
+    font-size: 18px !important
+  
+tr
+  height: $tdHeight
+  
+.rank
+  width: 60px !important
+  
+.table
+  background-color: lightgrey
+  max-width: 500px
+  font-family: 'Fredoka One', cursive
+
+th
+  font-size: 14px
+
+table
+  margin: 0px auto !important
+  
+td
+  color: black
+  position: relative
+  font-size: 22px
+  min-width: 2em !important
+  
+td a /*exclude the header bar*/
+  color: black
+  text-shadow: 2px 2px 1px white
+  position: relative  
+  line-height: $tdHeight
+  padding-left: 5px
+  min-width: 6em !important
+
+.data
+  margin-left: 5px
+  line-height: 40px
+  overflow: hidden
+  height: 100%
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  
+#userName
+  width: 250px !important
+
+caption
+  text-align: center
+  font-size: 18px
+
+.tdOverlay
+  position: absolute
+  background: rgba(211, 211, 211, 0.5) 
+  height: 100%
+  width: 100%
+  libe-height: 20px
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  
+.panel
+  border: none
+  
+.panel:hover
+  background: Transparent
+  
+.panel:hover a
+  color: orange !important
+  text-shadow: 3px 3px 3px green
+
+  
+#title
+  background-color: lightgrey
+  font-size: 28px
+  
+body
+  background: linear-gradient(270deg, #018e06, #014f8e)
+  background-size: 400% 400%
+  animation: AnimationName 20s ease infinite
+  @keyframes AnimationName  
+    0%
+      background-position: 0% 50%
+    50%
+      background-position: 100% 50%
+    100%
+      background-position: 0% 50%
+
+

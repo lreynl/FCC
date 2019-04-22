@@ -1,0 +1,57 @@
+@media (max-height: 440px) 
+    .grey 
+        height: 100vh !important
+
+canvas
+    width: 100%
+    height: 100%
+    display: block
+
+* 
+    font-family: "Courier New"
+
+
+.grey 
+    position: absolute
+    background-color: lightgrey
+    width: 100px
+    height: 440px
+    opacity: 0.6
+
+#speed, #size 
+    -webkit-appearance: slider-vertical
+    width: 20px
+    height: 175px
+    display: inline-block
+    margin: 0
+
+.right 
+    text-align: right
+
+.left 
+    text-align: left
+
+.sliders 
+    height: 40%
+
+.buttons 
+    height: 50%
+    width: 100%
+    position: absolute
+    bottom: 0
+
+.grey:hover 
+    opacity: 0.98
+
+#headers 
+    font-size: 10px
+    position: relative
+
+.center 
+    text-align: center
+
+.gens 
+    font-size: 15px
+
+
+

@@ -1,0 +1,26 @@
+<div class="grey" class="container">
+    <div id="headers" class="row no-gutters">
+        <div class="col-xs-6">[SPEED]</div>
+        <div class="col-xs-6">[SIZE]</div>
+    </div>
+    <div class="row no-gutters sliders">
+        <div class="col-xs-6 right">
+            <input id="speed" type="range" min="25" max="500" step="10" value="240" />
+        </div>
+        <div class="col-xs-6 left">
+            <input id="size" type="range" min="2" max="21" step="1"/>
+        </div>
+    </div>
+    <div class="buttons">
+        <button id="pause" class="btn btn-info btn-sm btn-block">PAUSE</button>
+        <button id="go" class="btn btn-success btn-sm btn-block">GO</button>
+        <button id="clear" class="btn btn-warning btn-sm btn-block">CLEAR</button>
+        <div class="checkbox center"><input id="wrap" type="checkbox" checked>wrap
+        </div>
+        <div class="gens center">generation:</div>
+        <div id="gen" class="gens center">0</div>
+        <button class="btn btn-default btn-sm btn-block" id="step">STEP</button>
+    </div>
+</div>
+
+<div id="GOL"></div>
